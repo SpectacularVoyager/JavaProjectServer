@@ -6,7 +6,7 @@ public class Database {
     String database = "MessagingApp";
     static int port = 3306;
     static String User = "root";
-    static String Password = "MySQLPassword@1947";
+    static String Password = "pass";
     private Connection con;
     private static Database _database;
     public static Database getDatabase(){
